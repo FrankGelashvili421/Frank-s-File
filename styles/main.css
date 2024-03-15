@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+}
+body{
+    background-color: #000;
+}
+.main_container{
+    max-width: 1512px;
+}
+.logo{
+    color: white;
+}
+.sign{
+    background-color: #000;
+    border: #6DE754 solid 2px;
+    border-radius: 12px;
+    cursor: pointer;
+    padding: 12px 30px;
+}
+.btn{
+    gap:16px;
+    float: right;
+    padding: 0 104px;
+}
+.start{
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    padding: 12px 30px;
+    background-color: #6DE754;
+    color: #000;
+}
+/* header{
+    padding: 78px;
+    display: flex;
+} */
+header ul{
+    display: flex;
+    gap: 24px;
+}
+header ul li{
+    list-style: none;
+}
+.logo, .list{
+    display: flex;
+}
+.gridinput_container{
+    max-width: 1147px;
+    width: 100%;
+}
+.input_container{
+    padding: 80px 182.5px;
+    max-width: 852px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    gap: 28px;
+}
+.input_container h1{
+    color: #6DE754;
+    font-size: 88px;
+}
+.input_container a{
+    color: #ffff;
+}
+.input_container p{
+    font-size: 16px;
+}
+.input input{
+    color: #909090;
+    max-width: 551px;
+    width: 100%;
+    background-color: #000;
+    border: none;
+    padding: 0 24px;
+    border-radius: 16px;
+}
+.input{
+    border: #909090 solid 1px;
+    display: flex;
+    border-radius: 16px;
+}
+.input button{
+    background-color: #6DE754;
+    border-radius: 16px;
+    border: none;
+    padding:10px 32px 12px;
+    cursor: pointer;
+    color: #000;
+}
+.grid_container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.grid_box{
+    max-width: 361px;
+    border-radius: 12px;
+    margin-right: 182px;
+    background-color: #1E201D;
+    gap: 16px;
+}
+.grid_box ul{
+    color: #909090;
+}
+
